@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+/* background-color:#575656; */
+color: #fff;
+font-family: 'Josefin Sans', sans-serif;
+background-image: url("./assets/court.png");
+background-size:cover;
+background-repeat: no-repeat;
+}
+
+.container{
+    width: 100vw;
+    /* height: 55vh; */
+    margin: auto;
+    background-color: #322d22;;
+}
+
+
+.navbar{
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.logo{
+  height: 40px;
+  margin-top: 10px;
+
+}
+
+.list{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between; 
+    list-style-type: none;
+    position: relative;
+    margin-left: 250px;
+}
+
+li:first-child{
+    font-weight:bold;
+}
+
+.list-item{
+  color: #ffffff;
+  margin: 25px;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+
+
+.button-small{
+    background-color: transparent;
+    border: 2px solid #E07C24;
+    color:#E07C24;
+    border-radius: 10px;
+    height: 30px;
+    padding: 5px;
+}
+
+
+/* header*/
+main {
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 4rem;
+   
+}
+
+.hero-heading{
+font-size: 4.5rem;
+font-weight: 700;
+width: 100%;
+}
+
+
+
+.body-text{
+    width: 50%;
+    font-size: 1rem;
+    font-weight: 400;
+    filter:brightness(0.7);
+    line-height: 1.5;
+} 
